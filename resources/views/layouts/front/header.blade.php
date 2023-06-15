@@ -16,7 +16,8 @@
                     <ul class="nav navbar-nav ">
                         <li class="nav-item mobile-menu d-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ficon feather icon-menu"></i></a></li>
                         <li class="mr-2 d-none d-xl-block">
-                          <a href="" style="color: black" ><i class="feather icon-airplay" data-toggle="tooltip" data-placement="bottom" title="Download Aplikasi"></i> Kost Able </a>
+                          <a href="{{url('googlemaps')}}" style="color: black" ><i class="feather icon-airplay" data-toggle="tooltip" data-placement="bottom" ></i> Open Google Map Kost Able </a>
+
                         </li>
                         <li class="d-none d-xl-block">
                           <a href="{{url('show-all-room')}}" style="color: black"><i class="feather icon-calendar" data-toggle="tooltip" data-placement="top" title="Booking Kamar"></i> Book Kamar Kos</a>

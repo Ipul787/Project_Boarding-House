@@ -25,6 +25,8 @@ Route::get('/','Frontend\FrontendsController@homepage'); // homepage
 Route::get('/room/{slug}','Frontend\FrontendsController@showkamar'); //Show Kamar
 Route::get('show-all-room','Frontend\FrontendsController@showAllKamar'); //Show all kamar
 Route::get('filter-kamar','Frontend\FrontendsController@filterKamar'); //Filter kamar
+Route::get('googlemaps','Frontend\FrontendsController@showKamarsOnMap'); //Filter kamar
+Route::get('googlemaps','Frontend\FrontendsController@showGogglemaps'); //Show google maps
 Route::get('kost','Frontend\FrontendsController@showByKota'); // show kamar by kota
 
 Route::get('simpan/kamar','Frontend\FrontendsController@simpanKamar'); // proses simpan kamar (favorite)
@@ -91,5 +93,6 @@ Route::middleware('auth')->group(function () {
   ////// GLOBAL ROUTE \\\\\\
   Route::get('profile','GlobalController@profile');
   Route::put('profile/{id}','GlobalController@profileUpdate');
+
 });
 
