@@ -17,9 +17,7 @@
               >
             </div>
             <p class="mt-2" style="width: 70%">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              ex atque dolor nesciunt neque a illum perferendis quibusdam? Amet
-              unde hic praesentium aliquid error sapiente.
+            Cari kost murah & terjamin hanya di Kost-Able
             </p>
           </div>
           <div class="col-lg-3">
@@ -33,8 +31,10 @@
           <div class="col-lg-3">
             <h4>Get In Touch</h4>
             <ul class="list-unstyled">
-              <li>132 Bali, Kutai,Indonesia</li>
-              <li>hello@home.com</li>
+              <li>Jl. Soekarno Hatta 8</li>
+              <li>Jatimulyo, Lowokwaru</li>
+              <li>Malang</li>
+              <li>admin@kostable.com</li>
               <li>214-805-4428</li>
             </ul>
             <span>Monday – Friday: 9 am – 5 pm</span>
